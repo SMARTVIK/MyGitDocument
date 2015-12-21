@@ -1,0 +1,27 @@
+//My document for git
+
+//for creating branch 
+git branch branchName
+
+//for renaming branch
+git branch -m <oldname> <newname> 
+or if you are on the same branch 
+git branch -m <new Name>
+
+//for deleting local branch
+git branch -d <branch name>
+
+//for deleting remote branch 
+git push origin :{remote branch name}
+
+//for pushing branch to remote 
+git push origin branchName
+
+//for fetching all branched from remote 
+git fetch origin 
+
+//for initial adding all 
+git add .
+
+
+
