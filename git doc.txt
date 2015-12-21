@@ -23,5 +23,8 @@ git fetch origin
 //for initial adding all 
 git add .
 
+//for initial adding all 
+git add .
 
-
+//for initial adding all 
+git add .
