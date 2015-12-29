@@ -1,0 +1,17 @@
+//this file contains important questions i have to prepare for my interviews 
+
+what is android ?
+The Android operating system is a multi-user Linux system in which each application is a different user.
+Each process has its own virtual machine (VM), so an app's code runs in isolation from other applications.
+
+
+What is an Activity?
+What is an Intent?
+What is a Sticky Intent?
+
+//what is a service in android?
+A Service is an application component that can perform long-running operations in the 
+background and does not provide a user interface.
+
+Another application component can start a service and it will continue to run in the 
+background even if the user switches to another application. 
