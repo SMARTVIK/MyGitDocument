@@ -1,0 +1,85 @@
+What is Android?
+Android is a stack of software for mobile devices which includes an Operating System, middleware 
+and some key applications. The application executes within its own process and its own instance of 
+Dalvik Virtual Machine. Many Virtual Machines run efficiently by a DVM device. DVM executes Java languages byte code 
+which later transforms into .dex format files.
+
+What is an Activity?
+A single screen in an application, with supporting Java code.
+
+What is an Intent?
+A class (Intent) which describes what a caller desires to do. The caller will send this intent to Android’s 
+intent resolver, which finds the most suitable activity for the intent. E.g. opening a PDF document is an intent, 
+and the Adobe Reader apps will be the perfect activity for that intent (class).
+
+What is a Sticky Intent?
+sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky,
+ i.e. the Intent you are sending stays around after the broadcast is complete, 
+ so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, 
+ IntentFilter). In all other ways, this behaves the same as sendBroadcast(Intent). One example of a sticky 
+ broadcast sent via the operating system is ACTION_BATTERY_CHANGED. When you call registerReceiver() for that action —
+ even with a null BroadcastReceiver — you get the Intent that was last broadcast for that action. Hence, 
+ you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
+
+How the nine-patch Image different from a regular bitmap? Alternatively, what is the difference between 
+nine-patch Image vs regular Bitmap Image?
+It is one of a resizable bitmap resource which is being used as backgrounds or other images on the device.
+The NinePatch class allows drawing a bitmap in nine sections. The four corners are unscaled; 
+the middle of the image is scaled in both axes, the four edges are scaled into one axis.
+
+What is a resource?
+A user defined JSON, XML, bitmap, or other file, injected into the application build process, which can later be loaded from code.
+How will you record a phone call in Android? or How to handle an Audio Stream for a call in Android?
+Permission.PROCESS_OUTGOING_CALLS: Will Allow an application to monitor, modify, or abort outgoing calls. So using that permission we can monitor the Phone calls.
+
+Does Android support the Bluetooth serial port profile?
+Yes.
+
+Can an application be started on powerup?
+Yes. 
+
+What is the APK format?
+The APK file is compressed AndroidManifest.xml file with extension .apk. It also includes the application code (.dex files), resource files, and other files which are compressed into a single .apk file.
+How to Translate in Android?
+The Google translator translates the data of one language into another language by using XMPP to transmit data. You can type the message in English and select the language which is understood by the citizens of the country in order to reach the message to the citizens.
+Describe Briefly the Android Application Architecture
+Android Application Architecture has the following components:
+Services like Network Operation
+Intent – To perform inter-communication between activities or services
+Resource Externalization – such as strings and graphics
+Notification signaling users – light, sound, icon, notification, dialog etc.
+Content Providers – They share data between applications
+What is needed to make a multiple choice list with a custom view for each row?
+Multiple choice list can be viewed by making the CheckBox android:id value be “@android:id /text1″. That is the ID used by Android for the CheckedTextView in simple_list_item_multiple_choice.
+What dialog boxes are supported in android?Android supports 4 dialog boxes:
+AlertDialog: An alert dialog box supports 0 to 3 buttons and a list of selectable elements, including check boxes and radio buttons. Among the other dialog boxes, the most suggested dialog box is the alert dialog box.
+ProgressDialog: This dialog box displays a progress wheel or a progress bar. It is an extension of AlertDialog and supports adding buttons.
+DatePickerDialog: This dialog box is used for selecting a date by the user.
+TimePickerDialog: This dialog box is used for selecting time by the user.
+General Android questions
+The Activity life cycle is must. Different phases of Activity Life cycle. For example: when and how the activity comes to foreground?
+Knowledge on AndroidManifest file, For example: Why do we need this file, What is the role of this file in Android app development.
+Different Kinds of Intents
+Different Kinds of Context
+Different Storage Methods in android
+Kinds of Log debugger and Debugger Configuration
+How to debug the application on real device.
+How do you ensure that the app design will be consistent across the different screen resolutions
+Thread concepts also plus points as we deal with the treads more.
+Can you able to build custom views and how?
+How to create flexible layouts, For example to place English, Chinese fonts.
+What is localization and how to achieve?
+What are 9-patch images
+How to avoid ANR status
+How to do Memory management
+Inter Process Communication (IPC)
+What is onCreate(Bundle savedInstanceState), Have you used savedInstanceState when and why?
+Fragments in an Activity
+When to use a service
+How to use a broadcast receiver and register it both in the manifest and in code
+Intent filters
+The types of flags to run an application
+How to do data intensive calculations using threads
+Passing large objects (that can’t be passed via intents and shouldn’t be serialized) via a service
+Binding to a service and the service lifecycle
+How to persist data (both savedInstanceState and more permanent ways)

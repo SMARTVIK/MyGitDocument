@@ -1,0 +1,27 @@
+General Android questions
+The Activity life cycle is must. Different phases of Activity Life cycle. For example: when and how the activity comes to foreground?
+Knowledge on AndroidManifest file, For example: Why do we need this file, What is the role of this file in Android app development.
+Different Kinds of Intents
+Different Kinds of Context
+Different Storage Methods in android
+Kinds of Log debugger and Debugger Configuration
+How to debug the application on real device.
+How do you ensure that the app design will be consistent across the different screen resolutions
+Thread concepts also plus points as we deal with the treads more.
+Can you able to build custom views and how?
+How to create flexible layouts, For example to place English, Chinese fonts.
+What is localization and how to achieve?
+What are 9-patch images
+How to avoid ANR status
+How to do Memory management
+Inter Process Communication (IPC)
+What is onCreate(Bundle savedInstanceState), Have you used savedInstanceState when and why?
+Fragments in an Activity
+When to use a service
+How to use a broadcast receiver and register it both in the manifest and in code
+Intent filters
+The types of flags to run an application
+How to do data intensive calculations using threads
+Passing large objects (that can’t be passed via intents and shouldn’t be serialized) via a service
+Binding to a service and the service lifecycle
+How to persist data (both savedInstanceState and more permanent ways)
